@@ -10,21 +10,21 @@
       - htop
       - tmux
       - vim-nox  
-
-   - name: copy wallpaper file
+      - python3-psutil
+  - name: copy wallpaper file
      copy: 
        scr: files/wallpaper,png
        dest: /usr/share/backgrounds/ansible-wallpaper.png
        owner: root
        group: root
 
-   - name: set wallpaper
+  - name: set wallpaper
      become_user: whenrick	
      dconf:
        key: "/org/gmome/desktop/background/picture-uri"
        value: "'file:///usr/share/backgrounds/ansible-wallpaper.png'"
 
-   - name: set wallpaper position
+  - name: set wallpaper position
      become_user: whenrick
      dconf:
        key: "/org/gmome/desktop/background/picture-options"
