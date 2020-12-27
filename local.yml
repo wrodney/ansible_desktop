@@ -7,27 +7,27 @@
   - name: install packages
     package:
       name: 
-      - htop
-      - tmux
-      - vim-nox  
-      - python3-psutil
+        - htop
+        - tmux
+        - vim-nox  
+        - python3-psutil
         
   - name: copy wallpaper file
-     copy: 
-       src: files/wallpaper.png
-       dest: /usr/share/backgrounds/ansible-wallpaper.png
-       owner: root
-       group: root
+    copy: 
+      src: files/wallpaper.png
+      dest: /usr/share/backgrounds/ansible-wallpaper.png
+      owner: root
+      group: root
 
   - name: set wallpaper
-     become_user: whenrick	
-     dconf:
+    become_user: wrodney
+    dconf:
        key: "/org/gmome/desktop/background/picture-uri"
        value: "'file:///usr/share/backgrounds/ansible-wallpaper.png'"
 
   - name: set wallpaper position
-     become_user: whenrick
-     dconf:
+    become_user: wrodney
+    dconf:
        key: "/org/gmome/desktop/background/picture-options"
        value: "'zoom'"
 
