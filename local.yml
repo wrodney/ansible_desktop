@@ -33,10 +33,10 @@
 
   - name: copy .bashrc file
     copy: 
-      src: files/bashrc
-      dest: /home/wrodney/.bashrc
-      owner: wrodney
-      group: wrodney
+     src: files/bashrc
+     dest: /home/wrodney/.bashrc
+     owner: wrodney
+     group: wrodney
 
 
   
