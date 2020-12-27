@@ -1,0 +1,109 @@
+[apps/update-manager]
+first-run=false
+launch-count=18
+launch-time=int64 1608296623
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1608148901
+
+[org/blueman/general]
+window-properties=[550, 769, 178, 143]
+
+[org/blueman/plugins/powermanager]
+auto-power-on=@mb true
+
+[org/blueman/plugins/recentconns]
+recent-connections=[{'adapter': '4C:EB:42:D3:98:FB', 'address': 'CA:24:F1:C1:98:A5', 'alias': 'MX Ergo', 'icon': 'input-mouse', 'name': 'Auto connect profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1604408358.3036325', 'device': '', 'mitem': ''}]
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gucharmap.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'simple-scan.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/nm-applet/eap/803ecbfc-ac0a-4531-adbf-3133ed54d167]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/software]
+check-timestamp=int64 1605095408
+first-run=false
+online-updates-timestamp=int64 1604663399
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=153
+sort-column='name'
+sort-directories-first=false
+sort-order='descending'
+type-format='category'
+window-position=(320, 25)
+window-size=(1920, 1030)
+
+[org/mate/atril/default]
+window-ratio=(1.5235690235690236, 0.9987373737373737)
+
+[org/mate/calc]
+button-mode='basic'
+source-units='degree'
+target-units='radian'
+
+[org/mate/engrampa/dialogs/extract]
+overwrite=true
+recreate-folders=true
+skip-newer=false
+
+[org/mate/engrampa/general]
+unar-open-zip=false
+
+[org/mate/engrampa/listing]
+list-mode='as-folder'
+name-column-width=473
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/mate/engrampa/ui]
+sidebar-width=200
+window-height=620
+window-width=1236
+
+[org/xfce/mousepad/preferences/view]
+auto-indent=false
+color-scheme='kate'
+font-name='DejaVu Sans Mono 10'
+highlight-current-line=false
+indent-on-tab=true
+indent-width=-1
+insert-spaces=false
+match-braces=false
+right-margin-position=80
+show-line-endings=false
+show-line-marks=false
+show-line-numbers=false
+show-right-margin=false
+show-whitespace=false
+smart-home-end='disabled'
+tab-width=8
+word-wrap=true
+
+[org/xfce/mousepad/preferences/window]
+menubar-visible=true
+
+[org/xfce/mousepad/state/window]
+fullscreen=false
+height=557
+maximized=false
+width=926
