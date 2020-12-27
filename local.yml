@@ -31,6 +31,12 @@
        key: "/org/gmome/desktop/background/picture-options"
        value: "'zoom'"
 
+  - name: copy .bashrc file
+    copy: 
+      src: files/bashrc
+      dest: /home/wrodney/.bashrc
+      owner: wrodney
+      group: wrodney
 
 
   
