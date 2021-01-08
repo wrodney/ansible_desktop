@@ -1,3 +1,3 @@
 # ansible_desktop
 Ansible configuration for Desktop and laptops
-Used for the Ansible desktop and laptop configuration setup
+I use Ansible to configure all of my desktops, laptops, and servers.
